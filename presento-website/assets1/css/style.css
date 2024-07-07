@@ -227,7 +227,7 @@
     background-color: white;
     gap: 2px;
     /* margin-left: 46px; */
-    width: 224px;
+    width: 200px;
     box-shadow: 4px 2px 1px 0px white;
     filter: drop-shadow(2px 5px 9px rgb(221, 216, 216));
     padding: 30px 0px;
@@ -320,7 +320,7 @@
     width: 50px;
     border-radius: 30px;
     position: absolute;
-    left: calc(52% - 50px);
+    left: calc(50% - 30px);
     margin-top: 10px;
 }
 
@@ -389,7 +389,7 @@
    width: 50px;
    border-radius: 30px;
    position: absolute;
-   left: calc(52% - 60px);
+   left: calc(50% - 30px);
    margin-top: 10px;
 }
 
@@ -492,7 +492,7 @@
     width: 50px;
     border-radius: 30px;
     position: absolute;
-    left: calc(52% - 50px);
+    left: calc(50% - 30px);
     margin-top: 10px;
 }
 
@@ -594,7 +594,7 @@
     width: 50px;
     border-radius: 30px;
     position: absolute;
-    left: calc(52% - 50px);
+    left: calc(50% - 30px);
     margin-top: 10px;
 }
 
@@ -676,7 +676,7 @@
     width: 50px;
     border-radius: 30px;
     position: absolute;
-    left: calc(52% - 50px);
+    left: calc(50% - 30px);
     margin-top: 10px;
 }
 #contact .info{
