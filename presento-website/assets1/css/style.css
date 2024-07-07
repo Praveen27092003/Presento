@@ -67,24 +67,26 @@
 
 
 
-
 #postheader{
+    position: relative;
+    margin-top: 100px;
+    padding: 20px 0px;
+}
+#postheader::before{
+    content: '';
     background-image: url(../images.png/banner/bg-image.jpg);
     padding-top: 70px;
     background-position: center;
+    filter: brightness(0.3);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 100px;
+    
+    position: absolute;
+    inset: 0px;
+    
    
 }
-/* #postheader img{
-    height: auto;
-    max-width: 100%;
-    transition: 1s;
-} */
-/* #postheader img:hover{
-    transform: scale(1.15);    
-} */
+
 
 #postheader .content{
     padding: 10%;
@@ -225,12 +227,12 @@
 
 #status .status-box{
     background-color: white;
-    gap: 2px;
+    /* gap: 2px; */
     /* margin-left: 46px; */
-    width: 200px;
+    width: 100%;
     box-shadow: 4px 2px 1px 0px white;
     filter: drop-shadow(2px 5px 9px rgb(221, 216, 216));
-    padding: 30px 0px;
+    padding: 30px 30px 25px 30px;
 }
 
 #status .d-flex{
@@ -242,17 +244,30 @@
 #status a{
     height: 50px;
     width: 50px;
-    background-color: #e03a3c;
+    background-color:white;
     display: inline-block;
     border-radius: 30px;
-    margin-left: 85px;
+    position: relative;
+    /* box-shadow: 4px 2px 1px 0px white; */
+    filter: drop-shadow(0px 0px 11px rgb(221, 216, 216));
+    top: 42px;
+    z-index: 1;
+    
 }
 
 #status i{
+    color: #e03a3c;
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+#status a:hover {
+    text-decoration: none;
+    background-color: #e1d8d8;
     color: white;
-    margin-top: 9px;
-    margin-left: 11px;
-    font-size: 30px;
+    transition: 0.5ms;
 }
 
 #status .about-clients{
@@ -847,4 +862,29 @@
    font-weight: 200;
    position: relative;
    right: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    #clients .praveen-1 img{
+        height: 60px;
+        max-width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #clients .praveen-1 img{
+        height: 60px;
+        max-width: 80%;
+    }
 }
