@@ -270,6 +270,10 @@
     transition: 0.5ms;
 }
 
+#status a:hover i{
+    color: #28a745;
+}
+
 #status .about-clients{
     text-align: center;
     margin-top: 10px;
@@ -887,4 +891,505 @@
         height: 60px;
         max-width: 80%;
     }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 420px){
+    #postheader h1 {
+        font-size: 40px;
+    }
+    #postheader h1 {
+        font-size: 22px;
+    }
+    #status p {
+        font-size: 30px;
+    }
+    #status a {
+        height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: 50px;
+    }
+    #status i{
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    #price .box {
+        /* margin-left: 30px; */
+    }
+    #footer .footer-social a i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+
+    #footer .footer-social a {
+        padding: 10px;
+    }
+    .praveen-1{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 480px){
+    #postheader h1 {
+        font-size: 40px;
+    }
+    #postheader h1 {
+        font-size: 22px;
+    }
+    #status p {
+        font-size: 30px;
+    }
+    #status a {
+        height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: 50px;
+    }
+    #status i{
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+    #price .box {
+        margin-left: 30px;
+    }
+    #footer .footer-social a i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+
+    #footer .footer-social a {
+        padding: 10px;
+    }
+    .praveen-1{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    #price .box {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    #clients .praveen-1 img{
+        height: 120px;
+        max-width: 60%;
+        margin-left: 140px;
+    }
+    #postheader h1 {
+    margin-bottom: 20px;
+    font-size: 65px;
+    line-height: 75px;
+    }
+
+    #postheader .container-fluid{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #postheader p {
+       
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    #postheader button {
+       
+        height: 60px;
+        width: 160px;
+        font-size: 25px;
+    
+    }
+
+    #postheader i {
+        font-size: 50px;
+        position: relative;
+        top: 15px;
+        left: 30px;
+    }
+
+    #postheader span {
+       
+        font-size: 33px;
+        position: relative;
+        top: 10px;
+        left: 45px;
+    }
+
+    .navbar h3 {
+        /* display: inline-block; */
+        margin-left: 40px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .navbar-toggler .fa-bars {
+        color: whitesmoke;
+        font-size: 45px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 27px;
+        margin-left: 37px;
+    }
+    .navbar-collapse .btn {
+       
+        height: 50px;
+        width: 134px;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
+    #about .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #about h1{
+        font-size: 46px;
+        padding: 20px 0px;
+    }
+
+    #about .para-heading{
+        font-size: 25px;
+        padding: 20px 0px;
+    }
+    #about button {
+        border-radius: 71px;
+        padding: 15px 32px;
+        font-size: 25px;
+    }
+
+    #about i {
+        font-size: 60px;
+        color: #e03a3c;
+    }
+
+    #about h5 {
+       
+        margin-top: 50px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    #about .para {
+        color: lightgray;
+        margin-top: 27px;
+        margin-bottom: 70px;
+        font-size: 30px;
+    }
+
+    #status .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #status h1 {
+        font-size: 60px;
+    }
+
+    #status p {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    #status .status-box {
+        padding: 40px 25px 45px 25px;
+    }
+
+    #status a {
+        height: 80px;
+        width: 80px;
+      
+        border-radius: 50%;
+        position: relative;
+       
+        top: 50px;
+        z-index: 1;
+    }
+
+    #status i {
+        color: #e03a3c;
+        margin-top: 23px;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+    }
+
+    #company-info .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #company-info h4 {
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+    #company-info p {
+        margin-top: 35px;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    #company-info li {
+        list-style: none;
+        margin-top: 20px;
+        font-weight: 200;
+        font-size: 27px;
+    }
+    
+
+    #services .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #services h3 {
+       
+        font-size: 50px;
+    }
+
+    #services .head-para {
+        font-size: 25px;
+    }
+
+    #services .services-box i {
+        font-size: 50px;
+    }
+
+    #services .box-contents h4 {
+        color: #ffffff;
+        font-size: 40px;
+    }
+
+    #services .box-contents p {
+        
+        font-size: 25px;
+        
+    }
+    
+
+    #testimonals .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #testimonals h3 {
+        font-size: 50px;
+    }
+
+    #testimonals .head-para {
+        font-size: 25px;
+    }
+
+
+    #price .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #price .pricing-title h4 {
+        font-size: 50px;
+        
+    }
+    #price .pricing-title p {
+    font-size: 25px;
+    }
+
+    #price .box {
+        
+        margin-left: 130px;
+    }
+    #price .box h3 {
+        font-size: 40px;
+    }
+
+    #price .box h4 span {
+        font-size: 40px;
+        position: relative;
+        bottom: 13px;
+    }
+
+    #price .box h4 {
+        font-size: 50px;
+    }
+    #price .box p {
+        color: #999;
+        font-size: 25px;
+    }
+    #price .box li{
+        font-size: 25px;
+
+    }
+
+    #price .box .btn {
+        font-size: 30px;
+        position: relative;
+        left: 62px;
+        
+    }
+
+    #about-ours .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #about-ours .question-title h4 {
+        font-size: 45px;
+       
+    }
+
+    #about-ours p {
+        font-size: 25px;
+      
+    }
+
+    #about-ours .card-header button {
+        font-size: 20px;
+    }
+
+    .card-body {
+        font-size: 20px;
+    }
+
+    #contact .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #contact .contact-title h2 {
+        color: black;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    #contact .contact-title p {
+        font-size: 25px;
+       
+    }
+
+    #contact .info a {
+        position: relative;
+        right: 40px;
+        top: 50px;
+        font-size: 35px;
+    }
+
+    #contact .info h3 {
+        font-size: 35px;
+       
+    }
+
+    #contact .info p {
+        color: lightgray;
+        font-size: 20px;
+    }
+
+    #contact .submit-message h5{
+        font-size: 30px;
+    }
+
+    #contact .submit-message .btn{
+        font-size: 30px;
+    }
+
+    #news .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #news h4 {
+        color: lightgrey;
+        font-size: 50px;
+    }
+
+    .text-center {
+        text-align: center !important;
+        font-size: 25px;
+    }
+
+    #footer .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #footer h3 {
+       
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    #footer p {
+        font-size: 25px;
+    }
+
+    #footer h5 {
+        color: white;
+        font-size: 40px;
+    }
+    #footer li {
+        font-size: 25px;
+    }
+
+    #footer span{
+        font-size: 20px;
+    }
+
+    #footer li i {
+        font-size: 20px;
+        position: relative;
+        right: 7px;
+        bottom: 2px;
+        color: #e03a3c;
+    }
+
+    #footer .footer-social a i {
+        background: #c65456;
+        color: #fff;
+        height: 60px;
+        width: 60px;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+
+    #copyright .container{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #copyright .copyright-from {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #copyright p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #copyright .first , .last {
+      
+        font-size: 50px;
+    }
+
+    #copyright .last {
+      
+        font-size: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+
+}
+
+@media only screen and (min-width: 1201px) {
+
 }
